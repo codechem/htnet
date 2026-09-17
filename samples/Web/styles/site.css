@@ -1,5 +1,6 @@
-.text-center { text-align: center; }
-.counter { font-size: 1.5rem; padding: 0 0.5rem; }
-.btn { padding: 0.25rem 0.75rem; border-radius: 4px; cursor: pointer; }
-.btn--accent { background: #346beb; color: #fff; }
-.panel { max-width: 24rem; margin: 0 auto; }
+/* Project-specific styles that complement the Tailwind utilities (Tw.*) used in Program.cs.
+   Compiled by the CC.CSX.Css source generator into typed `Site.*` constants. */
+.panel { position: relative; }
+.counter { font-variant-numeric: tabular-nums; }
+.btn:active { transform: scale(0.95); }
+.btn--accent { box-shadow: 0 1px 2px rgb(49 46 129 / 0.3); }
